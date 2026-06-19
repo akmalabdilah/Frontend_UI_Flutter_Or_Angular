@@ -1,0 +1,141 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-bottom: 60px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.profile-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d946ef, #ec4899);
+  box-shadow: 0 10px 20px rgba(217, 70, 239, 0.3);
+  border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-info h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.role {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fbcfe8;
+}
+
+.stat-item p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-divider {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.about-section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.about-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-left: 3px solid #d946ef;
+  padding-left: 10px;
+}
+
+.about-section p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.btn-primary {
+  flex: 1;
+  margin-top: 0;
+}
+
+.btn-secondary {
+  flex: 1;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+}

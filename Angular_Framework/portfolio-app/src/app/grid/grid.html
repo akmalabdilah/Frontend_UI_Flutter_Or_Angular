@@ -1,0 +1,19 @@
+<div class="page-container">
+  <div class="header">
+    <button class="menu-btn" (click)="sidebarService.open()">☰</button>
+    <h2>Grid View</h2>
+  </div>
+
+  <div class="grid-content">
+    <div class="grid-container">
+      @for (item of items; track item.title) {
+        <div class="grid-item">
+          <div class="image-placeholder" [style.background-color]="item.color"></div>
+          <p>{{ item.title }}</p>
+        </div>
+      }
+    </div>
+  </div>
+
+  <app-bottom-nav></app-bottom-nav>
+</div>

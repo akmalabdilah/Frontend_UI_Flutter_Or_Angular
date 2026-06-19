@@ -1,0 +1,35 @@
+<div class="gradient-background">
+  <div class="login-container">
+    <h2>Create account</h2>
+    <p class="subtitle">LOREM IPSUM DOLOR SIT AMET,<br>CONSECTETUER ADIPISCING ELIT</p>
+    
+    <div class="input-group">
+      <label>Name</label>
+      <input type="text" placeholder="Lorem Ipsum" #nameInput>
+    </div>
+
+    <div class="input-group">
+      <label>Mail</label>
+      <input type="email" placeholder="lorem@ipsum.com" #emailInput>
+    </div>
+
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" placeholder="••••••••" #passwordInput>
+    </div>
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="terms" checked>
+      <label for="terms">I agree to the terms & conditions</label>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn-signin" (click)="signIn()">SIGN IN</button>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="sidebar-overlay" [class.open]="sidebarService.isOpen()" (click)="sidebarService.close()"></div>
+<div class="sidebar" [class.open]="sidebarService.isOpen()">
+  <div class="sidebar-header">
+    <div class="profile-img"></div>
+    <div class="profile-info">
+      <h3>John Doe</h3>
+      <p>UI/UX Designer</p>
+    </div>
+  </div>
+  
+  <div class="sidebar-menu">
+    <a routerLink="/profile" (click)="sidebarService.close()" class="menu-item">
+      <span class="icon">👤</span> Profile
+    </a>
+    <a routerLink="/grid" (click)="sidebarService.close()" class="menu-item">
+      <span class="icon">⊞</span> Grid
+    </a>
+    <a routerLink="/article" (click)="sidebarService.close()" class="menu-item">
+      <span class="icon">📄</span> Article
+    </a>
+    <a routerLink="/login" (click)="sidebarService.close()" class="menu-item">
+      <span class="icon">🚪</span> Logout
+    </a>
+  </div>
+</div>
