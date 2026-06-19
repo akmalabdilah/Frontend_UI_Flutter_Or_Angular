@@ -1,6 +1,6 @@
 # 🚀 Frontend UI Showdown: Angular vs Flutter!
 
-Halo semuanya! 👋 Selamat datang di *repository* eksperimen seru ini. Di sini, gue (dan tim) nyoba ngebangun satu desain UI yang sama persis, tapi pakai dua "senjata" yang beda: **Angular** dan **Flutter**.
+Halo semuanya! 👋 Selamat datang di *repository* eksperimen seru ini. Di sini, gue  nyoba ngebangun satu desain UI yang sama persis, tapi pakai dua "senjata" yang beda: **Angular** dan **Flutter**.
 
 Tujuan utamanya simpel: pengen ngebuktiin gimana sih rasanya *slicing* UI yang sama di ekosistem Web (Angular) vs Cross-platform (Flutter). Kita bakal bahas blak-blakan soal performa, seberapa ribet belajarnya, sampai urusan *security*. Cocok banget buat kalian yang lagi galau mau milih *stack* frontend!
 
